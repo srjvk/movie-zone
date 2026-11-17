@@ -44,17 +44,7 @@ Base URL: `/api/v1/movie`
 - Maven or the included Maven Wrapper
 - PostgreSQL
 
-## Database Configuration
 
-Create a PostgreSQL database named `surajj`, then update `src/main/resources/application.properties` if needed:
-
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/surajj
-spring.datasource.username=postgres
-spring.datasource.password=1234
-```
-
-> The application validates the existing database schema (`spring.jpa.hibernate.ddl-auto=validate`) and uses the `movie_statistic` table.
 
 ## Running the Project
 
@@ -128,6 +118,4 @@ src
         └── MovieZoneApplicationTests.java
 ```
 
-## License
 
-No license has been specified for this project.
